@@ -15,7 +15,8 @@ object ApplicationBuild extends Build {
     libraryDependencies ++= Seq(
       "play-iso" %% "play-iso" % "1.1",
       "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-      "org.scalatestplus" %% "play" % "1.4.0-M3" % "test"
+      "org.scalatestplus" %% "play" % "1.4.0-M3" % "test",
+      "org.mockito" % "mockito-core" % "1.9.5"
     ),
     resolvers ++= Seq(
       Resolver.file(
